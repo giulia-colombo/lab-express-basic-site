@@ -1,3 +1,81 @@
 body {
-    color: red;
+    font-family: 'Nunito', serif;
+}
+
+.page-title {
+    color: #de0d87;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+h2 {
+    color: #de0d87;
+}
+
+#home-page {
+    display: block;
+
+}
+
+#home-page {
+
+    text-align: center;
+}
+
+#home-page h3 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#menu li {
+    list-style: none;
+    padding: 10px 0px;
+    text-align: center;
+    
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 8px;
+    margin: 20px;
+    background-color: pink;
+    border-radius: 10px;
+}
+
+#about {
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+#works {
+    text-align: center;
+}
+
+#works li {
+    list-style: none;
+}
+
+#photos {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#photos img {
+    width: 30%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10%;
 }
